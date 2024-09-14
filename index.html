@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Early Retirement Advisors</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Leaflet CSS for the map -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+
+  <!-- Google Analytics -->
+  <!-- G-HQM1RSHWQW -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CS3WE8M11D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CS3WE8M11D');
+  </script>
+  <!-- End Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NHQZ6GHS');</script>
+  <!-- End Google Tag Manager -->
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHQZ6GHS"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="container">
+    <!--input
+      type="text"
+      id="search"
+      placeholder="Search by city, state, or fee structure"
+      onkeyup="filterAdvisors()"
+      style="width: 100%; padding: 10px; margin-bottom: 20px;"
+    -->
+    <h1>Early Retirement Advisors</h1>
+    <h2>Your financial plan may not be conventional, but neither are these advisors!</h2>
+    <h3 class='hero-h3'>Scroll down for a map and list of financial advisors that are FIRE-friendly...</h3>
+    <img src='pexels-pixabay-39691.jpg' alt='Young family on a dock' class='banner-image'/>
+    <!-- Map -->
+    <div id="map"></div>
+    <!-- Advisor List -->
+    <div id="advisor-list"></div>
+  </div>
+
+  <!-- Include Leaflet JS for the map -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <!-- Include your JavaScript file -->
+  <script src="app.js"></script>
+</body>
+</html>
+
