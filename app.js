@@ -140,6 +140,16 @@ const advisors = [
     fee_structure: '$10,000/year.',
     website: 'https://spark-fin.com',
   },
+  {
+    firm_name: 'Scaled Finance',
+    advisor_name: 'Kevin Estes',
+    city: 'Renton',
+    state: 'WA',
+    latitude: 47.4797,
+    longitude: -122.2079,
+    fee_structure: '$250/hr. Sample engagements: $4,000 small, $6,000 medium, $8,000 large.',
+    website: 'https://www.scaledfinance.com',
+  },
 ];
 advisors.sort(() => Math.random() - 0.5);
 
