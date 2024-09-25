@@ -7,7 +7,7 @@ const advisors = [
     state: 'CA',
     latitude: 38.439701,
     longitude: -122.715637,
-    fee_structure: '$6,000/year. Projects quoted at flat fee.',
+    fee_structure: '$4,000 or $6,000/year depending on complexity. Projects quoted at flat fee.',
     website: 'https://adastrafp.com',
   },
   {
