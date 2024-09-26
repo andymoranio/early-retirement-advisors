@@ -3,10 +3,10 @@ const advisors = [
   {
     firm_name: 'Ad Astra Financial Planning',
     advisor_name: 'Andy Moran',
-    city: 'Santa Rosa',
+    city: 'Los Altos',
     state: 'CA',
-    latitude: 38.439701,
-    longitude: -122.715637,
+    latitude: 37.3852,
+    longitude: -122.1141,
     fee_structure: '$4,000 or $6,000/year depending on complexity. Projects quoted at flat fee.',
     website: 'https://adastrafp.com',
   },
