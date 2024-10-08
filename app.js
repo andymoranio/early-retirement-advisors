@@ -10,6 +10,7 @@ const advisors = [
     fee_structure: '$4,000 or $6,000/year depending on complexity. Projects quoted at flat fee.',
     website: 'https://adastrafp.com',
   },
+/*
   {
     firm_name: 'Measure Twice Financial',
     advisor_name: 'Cody Garrett',
@@ -20,6 +21,7 @@ const advisors = [
     fee_structure: '$7,650 for a one-time plan with updates after that at $450/hr.',
     website: 'https://measuretwicefinancial.com',
   },
+*/
   {
     firm_name: 'Cornerstone Financial Planning',
     advisor_name: 'Dan Huffman',
@@ -80,6 +82,7 @@ const advisors = [
     fee_structure: 'Starting at $6,625 for individuals, $10,500 for 2+ households. $749 for a "mini financial planning session".',
     website: 'https://northfinancialadvisors.com',
   },
+/*
   {
     firm_name: 'Modern Family Finance',
     advisor_name: 'Jennifer Dazols',
@@ -90,6 +93,7 @@ const advisors = [
     fee_structure: 'Starting at $6,000/year for individuals, $8,000/year for 2+ households.',
     website: 'https://modernfamilyfinance.com',
   },
+*/
   {
     firm_name: 'Elgon Financial Advisors',
     advisor_name: 'Jane Mepham',
