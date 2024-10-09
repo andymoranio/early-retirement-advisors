@@ -154,6 +154,36 @@ const advisors = [
     fee_structure: '$250/hr. Sample engagements: $4,000 small, $6,000 medium, $8,000 large.',
     website: 'https://www.scaledfinance.com',
   },
+  {
+    firm_name: 'CapitalWe',
+    advisor_name: 'Vrishin Subramaniam',
+    city: 'Arlington',
+    state: 'VA',
+    latitude: 38.8816,
+    longitude: -77.0910,
+    fee_structure: 'Starting at $5,000/year. $125 for 15 mins.',
+    website: 'https://www.capital-we.com',
+  },
+  {
+    firm_name: 'Citrine Capital',
+    advisor_name: 'Kiersten Peshek',
+    city: 'Columbus',
+    state: 'GA',
+    latitude: 32.4610,
+    longitude: -84.9877,
+    fee_structure: 'Starting at $15,000/year.',
+    website: 'https://www.citrinecapitaladvisors.com',
+  },
+  {
+    firm_name: 'Plan For It, Financial LLC',
+    advisor_name: 'Christopher Lazzaro',
+    city: 'Salem',
+    state: 'MA',
+    latitude: 42.5197,
+    longitude: -70.8955,
+    fee_structure: '$4,800-$8,400/year after $3,500-$7,500 for a one-time plan.',
+    website: 'https://www.planforitfinancial.com',
+  },
 ];
 advisors.sort(() => Math.random() - 0.5);
 
