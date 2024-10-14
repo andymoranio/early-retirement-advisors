@@ -115,7 +115,7 @@ const advisors = [
     website: 'https://nextadventurefinancial.com',
   },
   {
-    firm_name: 'Rubby Pebble Financial Planning',
+    firm_name: 'Ruby Pebble Financial Planning',
     advisor_name: 'Jamie Clark',
     city: 'Seattle',
     state: 'WA',
