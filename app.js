@@ -7,7 +7,7 @@ const advisors = [
     state: 'CA',
     latitude: 37.3852,
     longitude: -122.1141,
-    fee_structure: '$4,000 or $6,000/year depending on complexity. Projects quoted at flat fee.',
+    fee_structure: '$4,000 or $6,000/year depending on complexity. $3,200 or $4,800 for a one-time plan depending on complexity. $400 for a 90-minute session.',
     website: 'https://adastrafp.com',
   },
 /*
@@ -69,7 +69,7 @@ const advisors = [
     state: 'RI',
     latitude: 41.6771,
     longitude: -71.2662,
-    fee_structure: 'Starting at $10,000/year after $1,500 upfront fee.',
+    fee_structure: 'Starting at $10,000/year after $1,500 upfront fee. Based on percentage of income and net worth.',
     website: 'https://experienceyourwealth.com',
   },
   {
@@ -79,10 +79,9 @@ const advisors = [
     state: 'CA',
     latitude: 32.7157,
     longitude: -117.1611,
-    fee_structure: 'Starting at $6,625 for individuals, $10,500 for 2+ households. $749 for a "mini financial planning session".',
+    fee_structure: 'Starting at $6,625 for individuals, $10,500 for 2+ households. Investment management is a separate fee of 1% of assets/year. $749 for a "mini financial planning session".',
     website: 'https://northfinancialadvisors.com',
   },
-/*
   {
     firm_name: 'Modern Family Finance',
     advisor_name: 'Jennifer Dazols',
@@ -90,10 +89,9 @@ const advisors = [
     state: 'CA',
     latitude: 37.910076,
     longitude: -122.065186,
-    fee_structure: 'Starting at $6,000/year for individuals, $8,000/year for 2+ households.',
+    fee_structure: 'Starting at $6,000/year for individuals, $8,000/year for 2+ households. Based on percentage of assets under management.',
     website: 'https://modernfamilyfinance.com',
   },
-*/
   {
     firm_name: 'Elgon Financial Advisors',
     advisor_name: 'Jane Mepham',
@@ -111,7 +109,7 @@ const advisors = [
     state: 'IN',
     latitude: 40.4167,
     longitude: -86.8753,
-    fee_structure: 'Starting at $3,600/year after $1,000 upfront fee.',
+    fee_structure: 'Starting at $3,600/year after $1,000 upfront fee for young professionals. Based on complexity. Investment management is a separate fee of .35% of assets/year. Total wealth management for those retireed or soon-to-be-retired based on percentage of assets under management.',
     website: 'https://nextadventurefinancial.com',
   },
   {
@@ -121,7 +119,7 @@ const advisors = [
     state: 'WA',
     latitude: 47.6061,
     longitude: -122.3328,
-    fee_structure: 'Starting at $4,800/year after one-time plan, which is typically $5,600 for individuals, $6,800 for couples.',
+    fee_structure: 'Starting at $4,800/year after one-time plan, which is typically $5,600 for individuals, $6,800 for couples. Based on lifestyle.',
     website: 'https://rubypebblefp.com',
   },
   {
@@ -131,7 +129,7 @@ const advisors = [
     state: 'CA',
     latitude: 37.3387,
     longitude: -121.8853,
-    fee_structure: 'Starting at $3,600/year after one-time plan, which is typically $4,000 for individuals, $4,800 for couples. Project-based engagements start at $1,250 @ $320/hour.',
+    fee_structure: 'Starting at $3,600/year after one-time plan, which is typically $4,000 for individuals, $4,800 for couples. Based on complexity. Investment management is a separate fee based on percentage of assets under management. Project-based engagements start at $1,250 @ $320/hour.',
     website: 'https://drsfp.com',
   },
   {
@@ -161,7 +159,7 @@ const advisors = [
     state: 'VA',
     latitude: 38.8816,
     longitude: -77.0910,
-    fee_structure: 'Starting at $5,000/year. $125 for 15 mins.',
+    fee_structure: 'Starting at $5,000/year. Based on percentage of assets under management. $125 for 15 mins.',
     website: 'https://www.capital-we.com',
   },
   {
@@ -171,7 +169,7 @@ const advisors = [
     state: 'GA',
     latitude: 32.4610,
     longitude: -84.9877,
-    fee_structure: 'Starting at $15,000/year.',
+    fee_structure: 'Starting at $15,000/year. Based on percentage of assets under management.',
     website: 'https://www.citrinecapitaladvisors.com',
   },
   {
@@ -181,8 +179,38 @@ const advisors = [
     state: 'MA',
     latitude: 42.5197,
     longitude: -70.8955,
-    fee_structure: '$4,800-$8,400/year after $3,500-$7,500 for a one-time plan.',
+    fee_structure: '$4,800-$8,400/year after $3,500-$7,500 for a one-time plan. $350/hr for hourly financial planning.',
     website: 'https://www.planforitfinancial.com',
+  },
+  {
+    firm_name: 'Nectarine Financial',
+    advisor_name: 'Adam Coleman',
+    city: 'Charlotte',
+    state: 'NC',
+    latitude: 35.2271,
+    longitude: -80.8431,
+    fee_structure: '$2,500 for a one-time plan. $250 per hourly session.',
+    website: 'https://www.adamcolemanfinance.com',
+  },
+  {
+    firm_name: 'Bird Spring Financial',
+    advisor_name: 'Matteo Hoch',
+    city: 'Las Vegas',
+    state: 'NV',
+    latitude: 36.1716,
+    longitude: -115.1391,
+    fee_structure: 'Starting at $2,500 for a one-time plan. Based on complexity. $375 for a 60-minute session. $250/hour for smaller projects.',
+    website: 'https://www.birdspringfinancial.com',
+  },
+  {
+    firm_name: 'Beyond Your Hammock',
+    advisor_name: 'Eric Roberge',
+    city: 'Boston',
+    state: 'MA',
+    latitude: 42.3601,
+    longitude: -71.0589,
+    fee_structure: 'Not listed.',
+    website: 'https://www.beyondyourhammock.com',
   },
 ];
 advisors.sort(() => Math.random() - 0.5);
