@@ -7,7 +7,7 @@ const advisors = [
     state: 'CA',
     latitude: 37.3852,
     longitude: -122.1141,
-    fee_structure: '$4,000 or $6,000/year depending on complexity. $3,200 or $4,800 for a one-time plan depending on complexity. $400 for a 90-minute session.',
+    fee_structure: '$4,000 or $6,000/year. $3,200 or $4,800 for a one-time plan. $400 for a 90-minute session.',
     website: 'https://adastrafp.com',
   },
 /*
@@ -211,6 +211,16 @@ const advisors = [
     longitude: -71.0589,
     fee_structure: 'Not listed.',
     website: 'https://www.beyondyourhammock.com',
+  },
+  {
+    firm_name: 'Zenith Wealth Partners',
+    advisor_name: 'Adrienne Davis',
+    city: 'Baltimore',
+    state: 'MD',
+    latitude: 39.2904,
+    longitude: -76.6122,
+    fee_structure: '$3,600-$9,600/year. $2,000-$10,000 for a one-time plan. Based on complexity.',
+    website: 'https://zenithwealth.partners',
   },
 ];
 advisors.sort(() => Math.random() - 0.5);
