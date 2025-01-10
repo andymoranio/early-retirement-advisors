@@ -7,7 +7,7 @@ const advisors = [
     state: 'CA',
     latitude: 37.3852,
     longitude: -122.1141,
-    fee_structure: '$4,000 or $6,000/year. $3,200 or $4,800 for a one-time plan. $400 for a 90-minute session.',
+    fee_structure: '$6,000/year. $5,000 for a one-time plan. $400 for a 90-minute session.',
     website: 'https://adastrafp.com',
   },
 /*
@@ -221,6 +221,16 @@ const advisors = [
     longitude: -76.6122,
     fee_structure: '$3,600-$9,600/year. $2,000-$10,000 for a one-time plan. Based on complexity.',
     website: 'https://zenithwealth.partners',
+  },
+  {
+    firm_name: 'H3 Financial Planning',
+    advisor_name: 'Adam Haynes',
+    city: 'Salt Lake City',
+    state: 'UT',
+    latitude: 40.7608,
+    longitude: -111.8910,
+    fee_structure: 'Not listed.',
+    website: 'https://h3fp.com/',
   },
 ];
 advisors.sort(() => Math.random() - 0.5);
