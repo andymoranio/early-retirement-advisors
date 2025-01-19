@@ -230,7 +230,27 @@ const advisors = [
     latitude: 40.7608,
     longitude: -111.8910,
     fee_structure: 'Not listed.',
-    website: 'https://h3fp.com/',
+    website: 'https://h3fp.com',
+  },
+  {
+    firm_name: 'Find Your FI',
+    advisor_name: 'Jenn Steliga',
+    city: 'Omaha',
+    state: 'NE',
+    latitude: 41.2565,
+    longitude: -95.9345,
+    fee_structure: '$6,000/1 year. $2,600 for a one-time plan..',
+    website: 'https://www.findyourfi.net',
+  },
+  {
+    firm_name: 'Madi Manages Money, LLC',
+    advisor_name: 'Madison Sharick',
+    city: 'Pittsburgh',
+    state: 'PA',
+    latitude: 40.4406,
+    longitude: -79.9959,
+    fee_structure: '$2,500 for starter one-time plan. $6,000 for comprehensive plan for individuals. $8,500 for comprehensive plan for couples.',
+    website: 'https://madimanagesmoney.com/',
   },
 ];
 advisors.sort(() => Math.random() - 0.5);
