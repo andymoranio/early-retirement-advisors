@@ -190,7 +190,7 @@ const advisors = [
     latitude: 35.2271,
     longitude: -80.8431,
     fee_structure: '$2,500 for a one-time plan. $250 per hourly session.',
-    website: 'https://www.adamcolemanfinance.com',
+    website: 'https://adamcolemanfinance.com',
   },
   {
     firm_name: 'Bird Spring Financial',
