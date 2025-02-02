@@ -252,6 +252,26 @@ const advisors = [
     fee_structure: '$2,500 for starter one-time plan. $6,000 for comprehensive plan for individuals. $8,500 for comprehensive plan for couples.',
     website: 'https://madimanagesmoney.com/',
   },
+  {
+    firm_name: 'Modern Financial Planning',
+    advisor_name: 'Bryan Hasling',
+    city: 'Fort Worth',
+    state: 'TX',
+    latitude: 32.7555, 
+    longitude: -97.3308,
+    fee_structure: 'Starting at $6,000/year. Based on assets under management.',
+    website: 'https://modernfp.com/',
+  },
+  {
+    firm_name: 'OpenPath Financial',
+    advisor_name: 'Aubrey Williams',
+    city: 'Galeta',
+    state: 'CA',
+    latitude: 34.4358,
+    longitude: -119.827,
+    fee_structure: '$3,500-$14,000+ for a one-time plan. Hourly at $350/hr after that.',
+    website: 'https://openpath.financial/',
+  },
 ];
 advisors.sort(() => Math.random() - 0.5);
 
