@@ -7,7 +7,7 @@ const advisors = [
     state: 'CA',
     latitude: 37.3852,
     longitude: -122.1141,
-    fee_structure: '$6,000/year. $5,000 for a one-time plan. $400 for a 90-minute session.',
+    fee_structure: '$6,000/year. $275/hr for projects.',
     website: 'https://adastrafp.com',
   },
 /*
