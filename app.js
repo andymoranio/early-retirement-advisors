@@ -272,6 +272,16 @@ const advisors = [
     fee_structure: '$3,500-$14,000+ for a one-time plan. Hourly at $350/hr after that.',
     website: 'https://openpath.financial/',
   },
+  {
+    firm_name: 'EnoughFP LLC',
+    advisor_name: 'Cole Ferrier',
+    city: 'Edgewood',
+    state: 'WA',
+    latitude: 47.2501,
+    longitude: -122.2937,
+    fee_structure: '$300/hr',
+    website: 'https://www.enoughfp.com/',
+  },
 ];
 advisors.sort(() => Math.random() - 0.5);
 
