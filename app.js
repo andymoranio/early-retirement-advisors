@@ -7,10 +7,11 @@ const advisors = [
     state: 'CA',
     latitude: 37.3852,
     longitude: -122.1141,
-    fee_structure: '$6,000/year. $275/hr for projects.',
+    fee_structure: '$9,600/year after $2,500 onboarding fee. $2,250 and $750 project offerings available.',
     website: 'https://adastrafp.com',
   },
 /*
+  NOTE: Never confirmed
   {
     firm_name: 'Measure Twice Financial',
     advisor_name: 'Cody Garrett',
@@ -59,7 +60,7 @@ const advisors = [
     state: 'CA',
     latitude: 34.1685,
     longitude: -118.6058,
-    fee_structure: '$5,400 for a one-time plan.',
+    fee_structure: '$7,000 for a one-time plan.',
     website: 'https://mullaneyfinancial.com',
   },
   {
@@ -79,7 +80,7 @@ const advisors = [
     state: 'CA',
     latitude: 32.7157,
     longitude: -117.1611,
-    fee_structure: 'Starting at $6,625 for individuals, $10,500 for 2+ households. Investment management is a separate fee of 1% of assets/year. $749 for a "mini financial planning session".',
+    fee_structure: 'Starting at $6,625 for individuals, $10,500 for 2+ households. Based on net worth.',
     website: 'https://northfinancialadvisors.com',
   },
   {
@@ -89,7 +90,7 @@ const advisors = [
     state: 'CA',
     latitude: 37.910076,
     longitude: -122.065186,
-    fee_structure: 'Starting at $6,000/year for individuals, $8,000/year for 2+ households. Based on percentage of assets under management.',
+    fee_structure: 'Based on percentage of assets under management.',
     website: 'https://modernfamilyfinance.com',
   },
   {
@@ -109,7 +110,7 @@ const advisors = [
     state: 'IN',
     latitude: 40.4167,
     longitude: -86.8753,
-    fee_structure: 'Starting at $3,600/year after $1,000 upfront fee for young professionals. Based on complexity. Investment management is a separate fee of .35% of assets/year. Total wealth management for those retireed or soon-to-be-retired based on percentage of assets under management.',
+    fee_structure: 'Blended tier based on percentage of assets under management.',
     website: 'https://nextadventurefinancial.com',
   },
   {
@@ -119,7 +120,7 @@ const advisors = [
     state: 'WA',
     latitude: 47.6061,
     longitude: -122.3328,
-    fee_structure: 'Starting at $4,800/year after one-time plan, which is typically $5,600 for individuals, $6,800 for couples. Based on lifestyle.',
+    fee_structure: 'From $4,000-$10,000/year after one-time plan, which is typically $6,000 for individuals, $7,500 for couples. Based on lifestyle and needs.',
     website: 'https://rubypebblefp.com',
   },
   {
@@ -139,7 +140,7 @@ const advisors = [
     state: 'CA',
     latitude: 37.7395,
     longitude: -121.1354,
-    fee_structure: '$10,000/year.',
+    fee_structure: '1% of assets under management',
     website: 'https://spark-fin.com',
   },
   {
@@ -159,7 +160,7 @@ const advisors = [
     state: 'VA',
     latitude: 38.8816,
     longitude: -77.0910,
-    fee_structure: 'Starting at $5,000/year. Based on percentage of assets under management. $125 for 15 mins.',
+    fee_structure: '1% of assets under management or a custom fee based on income and net worth.',
     website: 'https://www.capital-we.com',
   },
   {
@@ -169,7 +170,7 @@ const advisors = [
     state: 'GA',
     latitude: 32.4610,
     longitude: -84.9877,
-    fee_structure: 'Starting at $15,000/year. Based on percentage of assets under management.',
+    fee_structure: 'Starting at $18,500/year. Based on net worth.',
     website: 'https://www.citrinecapitaladvisors.com',
   },
   {
@@ -189,7 +190,7 @@ const advisors = [
     state: 'NC',
     latitude: 35.2271,
     longitude: -80.8431,
-    fee_structure: '$2,500 for a one-time plan. $250 per hourly session.',
+    fee_structure: '$3,500-$4,500 for a one-time plan. $400 per hourly session.',
     website: 'https://adamcolemanfinance.com',
   },
   {
@@ -199,7 +200,7 @@ const advisors = [
     state: 'NV',
     latitude: 36.1716,
     longitude: -115.1391,
-    fee_structure: 'Starting at $2,500 for a one-time plan. Based on complexity. $375 for a 60-minute session. $250/hour for smaller projects.',
+    fee_structure: '$525 for Financial Physical.',
     website: 'https://www.birdspringfinancial.com',
   },
   {
@@ -219,9 +220,11 @@ const advisors = [
     state: 'MD',
     latitude: 39.2904,
     longitude: -76.6122,
-    fee_structure: '$3,600-$9,600/year. $2,000-$10,000 for a one-time plan. Based on complexity.',
+    fee_structure: '$4,200-$9,600/year. $3,600-$10,000 for a one-time plan. Based on complexity.',
     website: 'https://zenithwealth.partners',
   },
+/*
+  NOTE: Website not available
   {
     firm_name: 'H3 Financial Planning',
     advisor_name: 'Adam Haynes',
@@ -232,6 +235,7 @@ const advisors = [
     fee_structure: 'Not listed.',
     website: 'https://h3fp.com',
   },
+*/
   {
     firm_name: 'Find Your FI',
     advisor_name: 'Jenn Steliga',
@@ -239,7 +243,7 @@ const advisors = [
     state: 'NE',
     latitude: 41.2565,
     longitude: -95.9345,
-    fee_structure: '$6,000/1 year. $2,600 for a one-time plan..',
+    fee_structure: '$8,500 for year 1, $5,500 in years 2+',
     website: 'https://www.findyourfi.net',
   },
   {
@@ -249,7 +253,7 @@ const advisors = [
     state: 'PA',
     latitude: 40.4406,
     longitude: -79.9959,
-    fee_structure: '$2,500 for starter one-time plan. $6,000 for comprehensive plan for individuals. $8,500 for comprehensive plan for couples.',
+    fee_structure: '$3,000 for individuals, $5,000 for couples for a one-time plan.',
     website: 'https://madimanagesmoney.com/',
   },
   {
@@ -259,7 +263,7 @@ const advisors = [
     state: 'TX',
     latitude: 32.7555, 
     longitude: -97.3308,
-    fee_structure: 'Starting at $6,000/year. Based on assets under management.',
+    fee_structure: 'Not listed.',
     website: 'https://modernfp.com/',
   },
   {
@@ -269,7 +273,7 @@ const advisors = [
     state: 'CA',
     latitude: 34.4358,
     longitude: -119.827,
-    fee_structure: '$3,500-$14,000+ for a one-time plan. Hourly at $350/hr after that.',
+    fee_structure: '$3,850-$15,000+ for a one-time plan. Hourly at $385/hr after that.',
     website: 'https://openpath.financial/',
   },
   {
@@ -279,7 +283,7 @@ const advisors = [
     state: 'WA',
     latitude: 47.2501,
     longitude: -122.2937,
-    fee_structure: '$300/hr',
+    fee_structure: '$400/hr',
     website: 'https://www.enoughfp.com/',
   },
 ];
