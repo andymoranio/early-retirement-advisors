@@ -7,7 +7,7 @@ const advisors = [
     state: 'CA',
     latitude: 37.3852,
     longitude: -122.1141,
-    fee_structure: '$9,600/year after $2,500 onboarding fee. $2,250 and $750 project offerings available.',
+    fee_structure: '$9,600/year after $2,500 onboarding fee.',
     website: 'https://adastrafp.com',
   },
 /*
